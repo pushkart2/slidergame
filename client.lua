@@ -2,7 +2,7 @@ local receivedData
 local p = nil 
 
 RegisterCommand("slider", function(source, args)
-    local data = exports["snipe-meth"]:slider()
+    local data = exports["slidergame"]:slider()
 
     print(data[1], data[2], data[3])
 end)
