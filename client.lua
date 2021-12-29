@@ -24,20 +24,6 @@ function slider(data)
 end
 
 exports('slider', slider)
-    
-
-RegisterNetEvent("snipe-meth:client:openSlider")
-AddEventHandler("snipe-meth:client:openSlider", function ()
-    
-    
-    SendNUIMessage(
-        {
-            action = "openslider",
-        }
-    )
-    SetNuiFocus(true, true)
-    
-end)
 
 RegisterNUICallback("dataPost", function(data, cb)
     SetNuiFocus(false)
