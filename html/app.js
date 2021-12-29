@@ -11,9 +11,7 @@ $(document).ready(function(){
     }
 
 window.addEventListener('message', function(event){
-    console.log(event.data)
     var action = event.data.action;
-    console.log(action)
     switch(action) {
         case "openslider":
             SlderGame.Start();
