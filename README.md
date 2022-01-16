@@ -1,6 +1,6 @@
 # slidergame
 
-Checkout my other stuff - ![Tebex Store](snipe.tebex.io)
+Checkout my other stuff - ![Tebex Store](https://snipe.tebex.io)
 
 Checkout my discord - ![Discord](https://discord.gg/t6DTN3Q)
 
